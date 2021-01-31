@@ -21,7 +21,14 @@ class CandleGenerator
     private function _init() {
         $this->im = $this->chart->getImage();
         $this->config = $this->chart->getChartConfig();
+        $this->_calculateConfig();
         $this->_createCandles();
+    }
+
+    private function _calculateConfig() {
+        // get max ceiling
+        // get divisor
+        // get $/pix
     }
 
     public function getColors() {

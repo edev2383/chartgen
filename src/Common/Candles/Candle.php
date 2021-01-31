@@ -35,6 +35,10 @@ class Candle
     }
 
     private function _createVolumeBar() {
+        $index = $this->config['index'] ;
+        $originX = $this->config['originX'];
+        $originY = $this->config['originY'];
+        $width = $this->config['spacePerCandle'];
 
     }
 
